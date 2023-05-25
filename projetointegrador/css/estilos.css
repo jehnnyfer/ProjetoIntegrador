@@ -1,0 +1,337 @@
+/*================================================================================================================================
+                                            CABEÇALHO, RODAPÉ E DEMAIS CONFIGURAÇÕES DO CORPO
+================================================================================================================================*/
+body, li, p {
+    margin: 0vh;
+    padding: 0vh;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background: #434459;
+}
+ul {
+    margin: 0vh 4vh;
+    padding: 0vh;
+}
+#cabecalho, #rodape {
+    background: #343440;
+    align-items: center;
+    flex-wrap: wrap; 
+    padding: 1vh 0vh;
+    box-shadow: 0vh 0.2vh 5vh black;
+}
+#cabecalho h1 {
+    text-align: center;
+    font-style: oblique;
+    font-size: 7.5vh;
+    color: #1fccab;
+}
+#rodape h2, #topo {
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2.5vh;
+    color: #1fccab;
+}
+#rodape p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5vh;
+    color: white;
+}
+#menu a {
+    border: 0.4vh solid #1fccab;
+    border-radius: 0.8vh;
+    display: block;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 2.5vh;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 0.5vh 1.5vh;
+    margin: 0vh 2vh;
+    transition: 0.5s;
+}
+#topicos a {
+    border-top: 0.4vh solid black;
+    border-bottom: 0.4vh solid black;
+    display: block;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 2.5vh;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 0.5vh 1.5vh;
+    margin: 0vh 1vh 2vh;
+    transition: 0.5s;
+}
+#menu a:hover {
+    background: #1fccab;
+}
+#topicos a:hover, h1.divisoria:hover {
+    background: white;
+    color: black;
+}
+#menu li, #topicos li {
+    width: 100%;
+}
+#menu, #topicos, #linhascabecalho, div.flexboxleft1, div.flexboxright1, div.flexboxleft2, div.flexboxright2, div.flexboxleft3, div.flexboxright3, div.flexboxleft4, div.flexboxright4, div.flexboxleft5, div.flexboxright5, div.flexbox6 {
+    display: flex;
+}
+#traco1 {
+    background: #1fccab;
+    width: 100%;
+    height: 0.5vh;
+    border-radius: 1vh;
+    margin-top: 6.8vh;
+}
+#traco2 {
+    background: #1fccab;
+    width: 100%;
+    height: 0.5vh;
+    border-radius: 0.8vh;
+    margin-top: 11.4vh;
+}
+/*================================================================================================================================
+                                                    FORMATAÇÕES DO CORPO DA PÁGINA
+================================================================================================================================*/
+div.flexboxleft1 {
+    margin: 10vh;
+    padding-left: 4vh;
+    border-left: 2vh solid #fc8600;
+    border-radius: 2vh;
+}
+div.flexboxright1 {
+    margin: 10vh;
+    border-right: 2vh solid #fc8600;
+    border-radius: 2vh;
+}
+div.flexboxleft2 {
+    margin: 10vh;
+    padding-left: 4vh;
+    border-left: 2vh solid #affc41;
+    border-radius: 2vh;
+}
+div.flexboxright2 {
+    margin: 10vh;
+    border-right: 2vh solid #affc41;
+    border-radius: 2vh;
+}
+div.flexboxleft3 {
+    margin: 10vh;
+    padding-left: 4vh;
+    border-left: 2vh solid #005491;
+    border-radius: 2vh;
+}
+div.flexboxright3 {
+    margin: 10vh;
+    border-right: 2vh solid #005491;
+    border-radius: 2vh;
+}
+div.flexboxleft4 {
+    margin: 10vh;
+    padding-left: 4vh;
+    border-left: 2vh solid yellow;
+    border-radius: 2vh;
+}
+div.flexboxright4 {
+    margin: 10vh;
+    border-right: 2vh solid yellow;
+    border-radius: 2vh;
+}
+div.flexboxleft5 {
+    margin: 10vh;
+    padding-left: 4vh;
+    border-left: 2vh solid white;
+    border-radius: 2vh;
+}
+div.flexboxright5 {
+    margin: 10vh;
+    border-right: 2vh solid white;
+    border-radius: 2vh;
+}
+div.flexbox6 {
+    margin: 10vh;
+    padding-left: 4vh;
+    border-left: 2vh solid #1fccab;
+    border-right: 2vh solid #1fccab;
+    border-radius: 2vh;
+}
+div.flexbox6 h2 {
+    padding-bottom: 1vh;
+    text-align: center;
+    font-style: oblique;
+    font-size: 3.5vh;
+    color: white;
+}
+div.flexboxleft1 p, div.flexboxright1 p, div.flexboxleft2 p, div.flexboxright2 p, div.flexboxleft3 p, div.flexboxright3 p, div.flexboxleft4 p, div.flexboxright4 p, div.flexboxleft5 p, div.flexboxright5 p, div.flexbox6 p {
+    margin: 0vh 6vh 0vh 0vh;
+    text-align: justify;
+    text-indent: 4.2vh;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 2.8vh;
+    color: rgba(255, 255, 255, 0.5);
+}
+div.flexboxleft1 a, div.flexboxright1 a {
+    text-decoration: none;
+    color: white;
+}
+h1 {
+    padding-bottom: 1vh;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-size: 5.5vh;
+    color: white;
+}
+h1.divisoria {
+    border-top: 0.4vh solid black;
+    border-bottom: 0.4vh solid black;
+    color: white;
+    padding: 0.5vh;
+    margin: 10vh 60vh;
+    transition: 1s;
+}
+#referencias a {
+    border-left: 0.4vh solid rgba(255, 255, 255, 0.5);
+    display: block;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 2.1vh;
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 0.5vh 1.5vh;
+    margin: 10vh 0vh;
+    transition: 0.5s;
+}
+#referencias a:hover {
+    border-left: 0.4vh solid black;
+    color: black;
+}
+img.inicial {
+    margin: 3vh;
+    border-radius: 7vh;
+    border: 0.8vh solid #fc8600;
+    width: 75vh;
+    height: 45vh;
+    transition: 1s;
+    transform: scale(1);
+}
+iframe {
+    margin: 3vh;
+    border-radius: 7vh;
+    border: 0.8vh solid #affc41;
+    width: 75vh;
+    height: 45vh;
+    transition: 1s;
+    transform: scale(1);
+}
+img.equipamentos {
+    margin: 3vh;
+    border-radius: 7vh;
+    border: 0.8vh solid #005491;
+    width: 75vh;
+    height: 45vh;
+    transition: 1s;
+    transform: scale(1);
+}
+img.nutricao {
+    margin: 3vh;
+    border-radius: 7vh;
+    border: 0.8vh solid yellow;
+    width: 75vh;
+    height: 45vh;
+    transition: 1s;
+    transform: scale(1);
+}
+img.historia {
+    margin: 3vh;
+    border-radius: 7vh;
+    border: 0.8vh solid white;
+    width: 75vh;
+    height: 45vh;
+    transition: 1s;
+    transform: scale(1);
+}
+img.desenvolvedores {
+    margin: 3vh;
+    border-radius: 50%;
+    border: 0.8vh solid #1fccab;
+    width: 32vh;
+    height: 35vh;
+    transition: 1s;
+    transform: scale(1);
+}
+img:hover, iframe:hover {
+    transform: scale(1.05);
+}
+#flexboximc {
+    margin: 10vh;
+    padding: 0vh 25vh;
+    border-left: 2vh solid black;
+    border-right: 2vh solid black;
+    border-radius: 2vh;
+    transition: 0.5s;
+}
+label {
+    margin: 0vh 3vh;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 3vh;
+    color: white;
+}
+input {
+    background: white;
+    border: 0.5vh solid black;
+    border-radius: 1vh;
+    padding: 0.5vh 0vh;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 2vh;
+    color: black;
+}
+button {
+    background: white;
+    color: black;
+    border: 0.5vh solid black;
+    border-radius: 2vh;
+    cursor: pointer;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 2vh;
+    padding: 0.5vh 2vh;
+    transition: 0.5s;
+}
+button:hover {
+    background: black;
+    color: white;
+    border: 0.5vh solid white;
+}
+em {
+    color: black;
+    transition: 0.5s;
+}
+h1.lightblue {
+    color: lightblue;
+}
+h1.green {
+    color: #49f551;
+}
+h1.yellow {
+    color: yellow;
+}
+h1.orange {
+    color: orange;
+}
+h1.red {
+    color: red;
+}
+h1.brown {
+    color: brown;
+}
